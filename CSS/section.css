@@ -1,0 +1,7 @@
+.section {
+    padding: 20px 0;
+}
+
+.section__interesting {
+    color: rgba(11, 21, 221, 0.459);
+}

@@ -1,0 +1,29 @@
+.table {
+    border-collapse: collapse;
+    max-width: 100%;
+    overflow-x: scroll;
+}
+
+.tablecontainer {
+    border-collapse: collapse;
+    max-width: 100%;
+    overflow-x: scroll;
+}
+
+.table__caption {
+    caption-side: bottom;
+    margin-top: 10px;
+    font-weight: bold
+}
+
+.table__cell {
+    border: 1px solid rgb(68, 67, 67);
+    padding: 30px;
+    text-align: center;
+}
+
+.table__cell--header {
+    background-color: rgb(126, 129, 129);
+    color: rgb(12, 6, 6);
+    font-weight: normal;
+}
