@@ -5,5 +5,5 @@ https://monikapflegel.github.io/homepage/
 ### Welcome to my first website, you can find find here somebasic informations about me.
 #### Languages and technologies 
 - HTML
-- CSS
-- JavaScript
+- CSS (BEM , Flex Box)
+- JavaScript (ES6+)
