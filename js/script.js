@@ -1,11 +1,23 @@
 {
-    const welcome=() =>{ console.log("Cześć!");}
-     welcome();
+    const welcome = () => {
+        console.log("Cześć!");
+    }
 
-    let button = document.querySelector(".button");
-    let body = document.querySelector(".body");
-    let button__pagecolor = document.querySelector(".button__pagecolor");
-    button.addEventListener("click", () => {
+    const onChangeBackgroundClick = () => {
+
+        const button__pagecolor = document.querySelector(".button__pagecolor");
+        const body = document.querySelector(".body");
+
         body.classList.toggle("dark"); button__pagecolor.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
-    })
+    };
+
+    const init = () => {
+
+        const button = document.querySelector(".button");
+        button.addEventListener("click", onChangeBackgroundClick);
+
+        welcome();
+
+    };
+    init();
 }
