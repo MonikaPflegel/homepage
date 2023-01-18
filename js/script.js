@@ -5,13 +5,13 @@
 
     const onChangeBackgroundClick =
         () => {
-            const button__pagecolor =
-                document.querySelector(".js-button__pagecolor");
+            const buttonText =
+                document.querySelector(".js-buttonText");
             const body =
                 document.querySelector(".js-body");
 
             body.classList.toggle("dark"
-            ); button__pagecolor.innerText =
+            ); buttonText.innerText =
                 body.classList.contains("dark")
                     ? "jasny" : "ciemny";
         };

@@ -1,9 +1,8 @@
 .headline {
-    color: rgb(120, 110, 161);
+    color: rgb(107, 97, 148);
     background-color: rgb(241, 235, 235);
     -webkit-box-shadow: 8px -5px 24px -14px rgb(101, 105, 128);
     -moz-box-shadow: 8px -5px 24px -14px rgba(119, 121, 134, 1);
     box-shadow: 8px -5px 24px -14px rgba(119, 121, 134, 1);
-    text-shadow: 1px 2px 3px rgb(16, 1, 32);
-    text-align: center;
+ text-align: center;
 }
